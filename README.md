@@ -14,7 +14,7 @@ To connect a TFT display to the Raspberry Pi Pico 2, use the following pin assig
 #define TFT_SCLK 18   // Serial Clock (SCK)
 ```
 
-![Wiring Diagram](Img/wiring.jpg?raw=true)
+![Wiring Diagram](img/wiring.jpg?raw=true)
 
 ## Configuring the Arduino IDE
 
@@ -27,14 +27,14 @@ To connect a TFT display to the Raspberry Pi Pico 2, use the following pin assig
   https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
   ```
 
-![Preferences Setup](Img/arduino_ide1.jpg?raw=true)
+![Preferences Setup](img/arduino_ide1.jpg?raw=true)
 
 ### 2. Select the Raspberry Pi Pico Board
 
 - Open **Tools -> Board -> Board Manager**.
 - Search for **Raspberry Pi Pico** and install it from the list.
 
-![Board Manager](Img/arduino_ide2.jpg?raw=true)
+![Board Manager](img/arduino_ide2.jpg?raw=true)
 
 ## Flashing the Pico
 
@@ -45,11 +45,11 @@ To connect a TFT display to the Raspberry Pi Pico 2, use the following pin assig
 
 - In the Arduino IDE, under **Tools -> Board**, select **UF2_Board**.
 
-![Select Board](Img/arduino_ide3.jpg?raw=true)
+![Select Board](img/arduino_ide3.jpg?raw=true)
 
 ### Compile and Upload
 
 1. Once the code is ready, click the **Verify** button to compile your project.
 2. Click **Upload** to flash the code to your Pico2.
 
-![Compilation and Upload](Img/arduino_ide4.jpg?raw=true)
+![Compilation and Upload](img/arduino_ide4.jpg?raw=true)
